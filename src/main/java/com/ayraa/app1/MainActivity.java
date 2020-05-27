@@ -39,12 +39,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void aquarius(View view) {
-        Toast.makeText(getApplicationContext(), "Aquarius", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, Details.class);
-        intent.putExtra("sign", "aquarius".toString());
-        startActivity(intent);
-    }
+    
 
     public void virgo(View view) {
         Toast.makeText(getApplicationContext(), "Virgo", Toast.LENGTH_SHORT).show();
